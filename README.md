@@ -3,10 +3,28 @@
 
 demo 
 ------- 
+<div class='row'>
+<img  width="250" height="445" src="https://github.com/PeanutFeng/SelectView/blob/master/demo1.gif"'/>
+<img  width="250" height="445" src="https://github.com/PeanutFeng/SelectView/blob/master/demo2.GIF"'/>
+</div>
 
+导入 
+-------
+```Gradle
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+dependencies {
+    compile ''
+}
+```
 
 用法 
 -------
+
 ```Java
 selectView = new SelectView(this,ITEMTEXTS); //ITEMTEXTS为String数组，数组每个元素为上弹菜单中每个item的文字
 selectView.setPositionListener(this);    //每个item设置点击事件监听器

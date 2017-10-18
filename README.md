@@ -18,7 +18,7 @@ allprojects {
 	}
 }
 dependencies {
-    compile ''
+    compile 'com.github.PeanutFeng:SelectView:1.0.0'
 }
 ```
 
